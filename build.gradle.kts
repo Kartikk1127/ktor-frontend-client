@@ -22,6 +22,7 @@ dependencies {
     implementation ("ch.qos.logback:logback-classic:1.2.6")
     implementation("io.ktor:ktor-client-content-negotiation:$ktor_version")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktor_version")
+    implementation("com.jsoniter:jsoniter:0.9.19")
     implementation("org.jfree:jfreechart:1.5.0")
 }
 
